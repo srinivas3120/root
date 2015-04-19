@@ -1,0 +1,76 @@
+body{
+        margin: 0px;
+        font-family: Tahoma, Geneva, sans-serif;
+        font-size: 14px;
+    }
+#pageTop {
+    background: url(/root/images/header_sliver.jpg) repeat-x;
+    height: 90px;
+} 
+
+#pageTop > #pageTopWrap{
+        width: 1000px;
+        margin:  0px auto;
+        height: 90px;
+    }
+    
+#pageTop > #pageTopWrap > #pageTopLogo{
+    float: left;
+    height: 90px;
+    width: 90px;
+    
+}
+#pageTop > #pageTopWrap > #pageTopLogo >#pageLogo{
+       margin-top: 10px;
+}
+#pageTop > #pageTopWrap > #pageTopRest{
+    float: left;
+    height: 90px;
+    width: 892px;
+}
+
+ #pageTop > #pageTopWrap > #pageTopRest > #menu1{
+    height: 44px;
+}
+ #pageTop > #pageTopWrap > #pageTopRest > #menu1 >div{
+    text-align: right;
+    margin-top: 10px;
+}
+ #pageTop > #pageTopWrap > #pageTopRest > #menu1 >div>a{
+    color: #CCC;
+    text-decoration: none;
+}
+ #pageTop > #pageTopWrap > #pageTopRest > #menu1 >div>a:hover{
+    color: #3470eb;
+}
+
+
+   
+ #pageTop > #pageTopWrap > #pageTopRest > #menu2 >div{
+    padding: 4px;
+}
+ #pageTop > #pageTopWrap > #pageTopRest > #menu2 >div>a{
+    display: block;
+    float: left;
+    color: #CCC;
+    text-decoration: none;
+    margin: 0px 20px;
+}
+ #pageTop > #pageTopWrap > #pageTopRest > #menu2 >div>a:hover{
+    color: #3470eb;
+}
+
+
+#pageMiddle{
+    height: 900px;
+    margin: 0px auto;
+    width: 1000px;
+}
+
+#pageBottom{
+    background: #666;
+    padding: 24px;
+    font-size: 12px;
+    color: #CCC;
+    text-align: center;
+}

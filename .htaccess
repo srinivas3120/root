@@ -1,0 +1,7 @@
+#establish a 404 file
+
+ErrorDocument 404 /filenotfound.php
+
+# prevent directory file listing
+
+IndexIgnore *
